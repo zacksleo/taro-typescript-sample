@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "taro"
+  ],
+  "rules": {
+    "no-undef": 0,
+    "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "Taro"
+      }
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ]
+  },
+  "parser": "typescript-eslint-parser"
+}
